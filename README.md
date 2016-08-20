@@ -1,0 +1,6 @@
+KERNEL_IMAGETYPE = "uImage"
+ENABLE_SPI_BUS = "1"
+ENABLE_I2C = "1"
+ENABLE_UART = "1"
+
+MACHINE="raspberrypi3"
