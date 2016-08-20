@@ -7,7 +7,7 @@ RECIPE_MAINTAINER 	= "Julian DESVIGNES (discord) <julian.desvignes@telecom-sudpa
 PV = "V1.0"
 PR = "r0"
 
-inherit rpi-basic-image
+include recipes-core/images/rpi-basic-image.bb
 
 NETWORKPKGS ?= " \
     	networkmanager \
