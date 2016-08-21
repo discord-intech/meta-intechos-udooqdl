@@ -61,7 +61,7 @@ If it failed, please recheck all the steps and contact us if you can't find the 
 
 You should have an image inside build/tmp/deploy/images/\*your\_raspberry\_model\*/ it ends with .rpi-sdimg
 
-Copy that file somewhere you want (or don't move it, for what I care...) and plug a SD-CARD inside your computer (we will detroy everything on it). 
+Copy that file somewhere you want (or don't move it, for what I care...) and plug a SD-CARD inside your computer (we will destroy everything on it). 
 
 Your must find your device name inside /dev/ and I said the device, not the partition(s) ! Exemple : for me it's /dev/mmcblk0
 

@@ -19,6 +19,7 @@ INTECHPKGS ?= " \
 IMAGE_INSTALL += " \
     	${NETWORKPKGS} \
 	${INTECHPKGS} \
+	intech-custom \
 "
 
 IMAGE_DEV_MANAGER   	    = "udev"
