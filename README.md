@@ -4,7 +4,7 @@ Your machine should be a Raspberry PI (any model), we do not support other board
 
 # Dependencies
 
-Yocto has some dependancies, refer to that page to install them :
+Yocto has some dependencies, refer to that page to install them :
 
     http://www.yoctoproject.org/docs/2.1/mega-manual/mega-manual.html#packages
 
