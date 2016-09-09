@@ -14,13 +14,13 @@ NETWORKPKGS ?= " \
 "
 
 INTECHPKGS ?= " \
+	intech-custom \
+	ardyno \
 "
 
 IMAGE_INSTALL += " \
     	${NETWORKPKGS} \
 	${INTECHPKGS} \
-	intech-custom \
-	ardyno \
 "
 
 IMAGE_DEV_MANAGER   	    = "udev"
