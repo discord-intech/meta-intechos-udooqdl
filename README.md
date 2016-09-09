@@ -47,7 +47,7 @@ and change "raspberrypi3" by "raspberrypi" for Ver.1, "raspberrypi2" for Ver.2, 
 
 While inside the build dir, execute this command :
 
-    bitbake intech-cosmo-os-image
+    bitbake intech-cosmos
 
 This will launch the compilation, it can be quite long for the first time. (~1H on an AMD eight-core)
 
