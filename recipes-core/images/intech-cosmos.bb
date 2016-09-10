@@ -1,4 +1,4 @@
-DESCRIPTION		= "INTech Cosmo OS Image"
+DESCRIPTION		= "INTech CosmOS Image"
 SUMMARY 		= ""
 SECTION 		= "image"
 AUTHOR 			= "Julian DESVIGNES (discord) <julian.desvignes@telecom-sudparis.eu>"
@@ -13,6 +13,11 @@ NETWORKPKGS ?= " \
     	networkmanager \
 "
 
+JAVA ?= " \
+	openjre-8 \
+	rxtx \
+"
+
 INTECHPKGS ?= " \
 	intech-custom \
 	ardyno \
@@ -21,6 +26,7 @@ INTECHPKGS ?= " \
 IMAGE_INSTALL += " \
     	${NETWORKPKGS} \
 	${INTECHPKGS} \
+	${JAVA} \
 "
 
 IMAGE_DEV_MANAGER   	    = "udev"
