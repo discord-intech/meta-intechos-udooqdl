@@ -25,6 +25,7 @@ JAVA ?= " \
 INTECHPKGS ?= " \
 	intech-custom \
 	ardyno \
+	dynamixel-console \
 "
 
 IMAGE_INSTALL += " \

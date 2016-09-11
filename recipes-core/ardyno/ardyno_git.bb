@@ -1,7 +1,7 @@
 DESCRIPTION = "Ardyno-cosmo : A Dynamixel device library" 
 SECTION = "library"
 LICENSE = "CLOSED" 
-PR = "r0" 
+PR = "r1" 
 
 SRC_URI = "git://github.com/TechTheBilly/ardyno-cosmo.git;protocol=https"
 SRCREV="${AUTOREV}"
