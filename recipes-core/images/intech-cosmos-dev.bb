@@ -4,8 +4,6 @@ IMAGE_FEATURES += " \
 	tools-sdk \
 	tools-debug \
 	package-management \
-	dev-pkgs \
-	ptest-pkgs \
 "
 
 JAVA += " \
