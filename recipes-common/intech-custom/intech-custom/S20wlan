@@ -1,0 +1,2 @@
+modprobe brcmfmac
+ifup wlan0

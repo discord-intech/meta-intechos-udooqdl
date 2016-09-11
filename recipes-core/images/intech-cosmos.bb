@@ -9,8 +9,12 @@ PR = "r0"
 
 include recipes-core/images/rpi-basic-image.bb
 
+IMAGE_FEATURES += " \
+	ssh-server-openssh \
+"
+
 NETWORKPKGS ?= " \
-    	networkmanager \
+	wpa-supplicant \
 "
 
 JAVA ?= " \
@@ -29,7 +33,12 @@ IMAGE_INSTALL += " \
 	${JAVA} \
 "
 
+IMAGE_INSTALL_append_raspberrypi3 ?= " \
+	linux-firmware-brcm43430 \
+"
+
 IMAGE_DEV_MANAGER   	    = "udev"
 IMAGE_LOGIN_MANAGER 	    = "busybox shadow"
 IMAGE_INIT_MANAGER  	    = "systemd"
 EXTRA_USERS_PARAMS 	    = "usermod -P intech root;"
+
