@@ -6,6 +6,7 @@ PR = "r0"
 DEPENDS = "ardyno"
 
 SRC_URI = "git://github.com/TechTheBilly/ardyno-cosmo-console.git;protocol=https"
+SRCREV="${AUTOREV}"
 
 S = "${WORKDIR}/git"
 
