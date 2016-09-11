@@ -8,6 +8,10 @@ DEPENDS = "ardyno"
 SRC_URI = "git://github.com/TechTheBilly/ardyno-cosmo-console.git;protocol=https"
 SRCREV="${AUTOREV}"
 
+
+FILES_SOLIBSDEV = ""
+FILES_${PN} += "${base_libdir}/*.so"
+
 S = "${WORKDIR}/git"
 
 inherit pkgconfig cmake
