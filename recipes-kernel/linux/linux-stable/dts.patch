@@ -1,8 +1,19 @@
-commit 5397707e04cb64a8426dfa95a66dac28b4b8637f
-Author: discord <julian.desvignes@telecom-sudparis.eu>
-Date:   Mon Oct 3 14:33:34 2016 +0200
+From 2af2bf93878c3ed2ae134faf509d3700274b9904 Mon Sep 17 00:00:00 2001
+From: discord <julian.desvignes@telecom-sudparis.eu>
+Date: Mon, 3 Oct 2016 15:40:49 +0200
+Subject: [PATCH] dts for pwm
 
-    dts for pwm
+---
+ arch/arm/boot/dts/BB-PWM0-00A0.dts    | 54 +++++++++++++++++++++++++
+ arch/arm/boot/dts/BB-PWM1-00A0.dts    | 54 +++++++++++++++++++++++++
+ arch/arm/boot/dts/BB-PWM2-00A0.dts    | 54 +++++++++++++++++++++++++
+ arch/arm/boot/dts/Makefile            |  4 ++
+ arch/arm/boot/dts/am33xx_pwm-00A0.dts | 74 +++++++++++++++++++++++++++++++++++
+ 5 files changed, 240 insertions(+)
+ create mode 100644 arch/arm/boot/dts/BB-PWM0-00A0.dts
+ create mode 100644 arch/arm/boot/dts/BB-PWM1-00A0.dts
+ create mode 100644 arch/arm/boot/dts/BB-PWM2-00A0.dts
+ create mode 100644 arch/arm/boot/dts/am33xx_pwm-00A0.dts
 
 diff --git a/arch/arm/boot/dts/BB-PWM0-00A0.dts b/arch/arm/boot/dts/BB-PWM0-00A0.dts
 new file mode 100644
@@ -188,10 +199,10 @@ index 0000000..ea8256d
 +};
 \ No newline at end of file
 diff --git a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
-index 414b427..463a0a7 100644
+index faacd52..66f79cf 100644
 --- a/arch/arm/boot/dts/Makefile
 +++ b/arch/arm/boot/dts/Makefile
-@@ -527,6 +527,10 @@ dtb-$(CONFIG_SOC_AM33XX) += \
+@@ -545,6 +545,10 @@ dtb-$(CONFIG_SOC_AM33XX) += \
  	am335x-shc.dtb \
  	am335x-sbc-t335.dtb \
  	am335x-sl50.dtb \
@@ -282,3 +293,6 @@ index 0000000..4358b2f
 +		};
 +	};
 +};
+-- 
+2.10.0
+
