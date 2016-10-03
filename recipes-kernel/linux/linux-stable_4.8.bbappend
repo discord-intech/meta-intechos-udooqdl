@@ -1,7 +1,7 @@
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
-SRC_URI = " \
+SRC_URI += " \
         file://dts.patch \
 "
 
