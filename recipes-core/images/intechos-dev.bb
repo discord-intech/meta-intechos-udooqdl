@@ -1,3 +1,4 @@
+
 require intechos.bb
  
 IMAGE_FEATURES += " \
@@ -18,3 +19,6 @@ IMAGE_INSTALL += " \
  	git \
  	subversion \
  "
+
+export IMAGE_BASENAME = "intechos-dev"
+

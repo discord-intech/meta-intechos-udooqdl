@@ -7,14 +7,14 @@ RECIPE_MAINTAINER 	= "Julian DESVIGNES (discord) <julian.desvignes@telecom-sudpa
 PV = "V1.0"
 PR = "r0"
 
-include recipes-core/images/core-image-base.bb
+include images/console-image.bb
+
 
 IMAGE_FEATURES += " \
 	ssh-server-openssh \
 "
-
+	
 NETWORKPKGS ?= " \
-	wpa-supplicant \
 "
 
 JAVA ?= " \
@@ -27,12 +27,12 @@ INTECHPKGS ?= " \
 	ardyno \
 	dynamixel-console \
 	blacklib \
+	motordaemon \
 "
 
 IMAGE_INSTALL += " \
-    	${NETWORKPKGS} \
+	${NETWORKPKGS} \
 	${INTECHPKGS} \
-	${JAVA} \
 "
 
 IMAGE_INSTALL_append_raspberrypi3 ?= " \
@@ -43,3 +43,5 @@ IMAGE_DEV_MANAGER   	    = "udev"
 IMAGE_LOGIN_MANAGER 	    = "busybox shadow"
 IMAGE_INIT_MANAGER  	    = "systemd"
 EXTRA_USERS_PARAMS 	    = "usermod -P intech root;"
+
+export IMAGE_BASENAME = "intechos"

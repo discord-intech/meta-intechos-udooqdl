@@ -17,7 +17,8 @@ Then execute those lines in the folder you've chosen :
     git clone git://git.yoctoproject.org/poky -b krogoth
     cd poky
     git clone git://git.openembedded.org/meta-openembedded -b krogoth
-    git clone git://git.yoctoproject.org/meta-raspberrypi
+    git clone https://github.com/jumpnow/meta-bbb.git -b krogoth
+    git clone git://git.yoctoproject.org/meta-qt5 -b krogoth
     git clone git://git.yoctoproject.org/meta-java
     git clone git@github.com:discord-intech/meta-intechos.git
 

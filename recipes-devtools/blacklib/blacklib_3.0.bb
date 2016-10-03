@@ -7,6 +7,7 @@ FILES_${PN} += "${libdir}/*.so"
 
 FILES_SOLIBSDEV = ""
 
+
 SRC_URI = "git://github.com/discord-intech/BlackLib.git;protocol=https"
 SRCREV="${AUTOREV}"
 
