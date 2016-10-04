@@ -24,6 +24,7 @@ JAVA ?= " \
 
 INTECHPKGS ?= " \
 	intech-custom \
+	bb-org-overlays \
 	ardyno \
 	dynamixel-console \
 	blacklib \
@@ -31,6 +32,7 @@ INTECHPKGS ?= " \
 "
 
 IMAGE_INSTALL += " \
+	dtc \	
 	${NETWORKPKGS} \
 	${INTECHPKGS} \
 "

@@ -1,0 +1,17 @@
+commit 418b1be79040b829e9da7e28e9fbb87ee10e3605
+Author: discord <julian.desvignes@telecom-sudparis.eu>
+Date:   Tue Oct 4 13:49:50 2016 +0200
+
+    fix
+
+diff --git a/Makefile b/Makefile
+index 4e1c964..685caa4 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,5 +1,5 @@
+ 
+-DTC ?= /usr/bin/dtc-v4.1.x
++DTC ?= dtc
+ CPP ?= cpp
+ DESTDIR ?=
+ 
