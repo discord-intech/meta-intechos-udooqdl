@@ -1,4 +1,5 @@
-echo BB-PWM0 > /sys/devices/platform/bone_capemgr/slots
-echo BB-PWM1 > /sys/devices/platform/bone_capemgr/slots
-echo BB-PWM2 > /sys/devices/platform/bone_capemgr/slots
+#!/bin/sh
+
+echo 'BB-PWM1' > /sys/devices/platform/bone_capemgr/slots
+echo 'BB-PWM2' > /sys/devices/platform/bone_capemgr/slots
 
