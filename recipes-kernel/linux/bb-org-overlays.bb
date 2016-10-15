@@ -11,6 +11,7 @@ SRCREV = "961e2ee94bde68f2a5602a93419a2bb36270eea2"
 SRC_URI = " \
     git://github.com/beagleboard/bb.org-overlays.git \
     file://dtc-bin.patch \
+    file://dtc-pwm.patch \
     "
 
 S = "${WORKDIR}/git"
