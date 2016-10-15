@@ -2,4 +2,4 @@
 
 # echo 'BB-PWM1' > /sys/devices/platform/bone_capemgr/slots
 # echo 'BB-PWM2' > /sys/devices/platform/bone_capemgr/slots
-echo 'am33xx_pwm' > /sys/devices/platform/bone_capemgr/slot
+echo 'am33xx_pwm' > /sys/devices/platform/bone_capemgr/slots
