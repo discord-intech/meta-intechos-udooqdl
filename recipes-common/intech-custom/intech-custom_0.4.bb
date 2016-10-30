@@ -14,6 +14,7 @@ SRC_URI=" \
 	file://S20wlan \
 	file://S99pwm \
 	file://interfaces \
+	file://sources.list \
 "
 
 FILES_${PN} += "/etc/motd"
@@ -27,6 +28,8 @@ do_install() {
 	install -d ${D}/etc/
         install -d ${D}/etc/network/
 	install -d ${D}/etc/ssh/
+        install -d ${D}/etc/apt/
+        install -m 0522 ${S}/sources.list ${D}/etc/apt/sources.list
 	install -m 0522 ${S}/sshd_config ${D}/etc/ssh/sshd_config
 	install -m 0522 ${S}/motd ${D}/etc/motd
         install -m 0522 ${S}/interfaces ${D}/etc/network/interfaces

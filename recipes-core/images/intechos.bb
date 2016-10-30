@@ -35,6 +35,7 @@ IMAGE_INSTALL += " \
 	dtc \	
 	${NETWORKPKGS} \
 	${INTECHPKGS} \
+	${JAVA} \
 "
 
 IMAGE_INSTALL_append_raspberrypi3 ?= " \
