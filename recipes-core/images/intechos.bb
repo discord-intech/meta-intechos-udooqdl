@@ -9,7 +9,6 @@ PR = "r0"
 
 include images/console-image.bb
 
-
 IMAGE_FEATURES += " \
 	ssh-server-openssh \
 "
@@ -33,6 +32,8 @@ INTECHPKGS ?= " \
 
 IMAGE_INSTALL += " \
 	dtc \	
+	openssh \
+	gnupg \
 	${NETWORKPKGS} \
 	${INTECHPKGS} \
 	${JAVA} \

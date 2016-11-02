@@ -13,6 +13,7 @@ SRC_URI=" \
 	file://sshd_config \
 	file://S20wlan \
 	file://S99pwm \
+	file://S99dpkg \
 	file://interfaces \
 	file://sources.list \
 "
@@ -25,6 +26,7 @@ do_install() {
 	install -d ${D}/etc/rc5.d/
         install -m 0777 ${S}/S20wlan ${D}/etc/rc5.d/S20wlan
 	install -m 0777 ${S}/S99pwm ${D}/etc/rc5.d/S99pwm
+	install -m 0777 ${S}/S99dpkg ${D}/etc/rc5.d/S99dpkg
 	install -d ${D}/etc/
         install -d ${D}/etc/network/
 	install -d ${D}/etc/ssh/

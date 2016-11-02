@@ -18,7 +18,7 @@ IMAGE_INSTALL += " \
  	nano \
  	git \
  	subversion \
- "
+"
 
 export IMAGE_BASENAME = "intechos-dev"
 

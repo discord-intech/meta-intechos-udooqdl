@@ -1,2 +1,2 @@
-deb ssh://discord@157.159.49.63:~/apt stable main contrib non-free
+deb ssh://discord@157.159.49.63:/home/discord/apt intechos main multiverse
 
