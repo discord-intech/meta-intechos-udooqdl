@@ -1,11 +1,11 @@
-DESCRIPTION = "Motor Daemon" 
+DESCRIPTION = "Motor Daemon Localhost Console" 
 SECTION = "examples" 
 LICENSE = "CLOSED" 
-PR = "r9"
+PR = "r0" 
 
-DEPENDS = "blacklib"
+DEPENDS = "motordaemon"
 
-SRC_URI = "git://github.com/discord-intech/MotorDaemon.git;protocol=https"
+SRC_URI = "git://github.com/discord-intech/MotorDaemonConsole.git;protocol=https"
 SRCREV="${AUTOREV}"
 
 
@@ -18,5 +18,5 @@ inherit pkgconfig cmake
 
 do_install() {
     install -d ${D}${bindir}
-    install -m 0755 MotorDaemon ${D}${bindir}
+    install -m 0755 MotorDaemonConsole ${D}${bindir}
 }

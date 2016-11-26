@@ -18,9 +18,9 @@ Then execute those lines in the folder you've chosen :
     cd poky
     git clone git://git.openembedded.org/meta-openembedded -b krogoth
     git clone https://github.com/jumpnow/meta-bbb.git -b krogoth
-    git clone git://git.yoctoproject.org/meta-qt5 -b krogoth
+    git clone https://github.com/meta-qt5/meta-qt5.git -b krogoth
     git clone git://git.yoctoproject.org/meta-java
-    git clone git@github.com:discord-intech/meta-intechos.git
+    git clone https://github.com/discord-intech/meta-intechos.git
 
 This will simply clone all the files you need to perform the compilation. If the last one failed, just change the address with the HTTPS one you can find on our main page.
 

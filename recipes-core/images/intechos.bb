@@ -28,6 +28,7 @@ INTECHPKGS ?= " \
 	dynamixel-console \
 	blacklib \
 	motordaemon \
+	motordaemonconsole \
 "
 
 IMAGE_INSTALL += " \
