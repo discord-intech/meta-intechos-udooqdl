@@ -17,6 +17,7 @@ IMAGE_INSTALL += " \
  	vim \
  	nano \
  	git \
+	valgrind \
  	subversion \
 "
 
