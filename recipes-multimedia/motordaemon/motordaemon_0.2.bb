@@ -1,7 +1,7 @@
 DESCRIPTION = "Motor Daemon" 
 SECTION = "examples" 
 LICENSE = "CLOSED" 
-PR = "r9"
+PR = "r0"
 
 DEPENDS = "blacklib"
 
