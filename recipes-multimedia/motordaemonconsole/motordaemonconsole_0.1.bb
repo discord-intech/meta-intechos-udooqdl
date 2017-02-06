@@ -1,7 +1,7 @@
 DESCRIPTION = "Motor Daemon Localhost Console" 
 SECTION = "examples" 
 LICENSE = "CLOSED" 
-PR = "r1" 
+PR = "r2" 
 
 DEPENDS = "motordaemon"
 

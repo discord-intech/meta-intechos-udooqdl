@@ -9,6 +9,7 @@ PR = "r0"
 
 include images/console-image.bb
 
+
 IMAGE_FEATURES += " \
 	ssh-server-openssh \
 "
@@ -19,6 +20,16 @@ NETWORKPKGS ?= " \
 JAVA ?= " \
 	openjre-8 \
 	rxtx \
+"
+
+GSTREAMER ?= " \
+	gstreamer1.0 \
+	gstreamer1.0-libav \
+	gstreamer1.0-meta-base \
+	gstreamer1.0-omx \
+	gstreamer1.0-plugins-bad \
+	gstreamer1.0-plugins-base \
+	gstreamer1.0-plugins-good \
 "
 
 INTECHPKGS ?= " \
@@ -35,8 +46,10 @@ IMAGE_INSTALL += " \
 	dtc \	
 	openssh \
 	gnupg \
+	screen \
 	${NETWORKPKGS} \
 	${INTECHPKGS} \
+	${GSTREAMER} \
 	${JAVA} \
 "
 

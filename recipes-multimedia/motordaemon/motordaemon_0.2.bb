@@ -1,9 +1,8 @@
 DESCRIPTION = "Motor Daemon" 
 SECTION = "examples" 
 LICENSE = "CLOSED" 
-PR = "r0"
+PR = "r40"
 
-DEPENDS = "blacklib"
 
 SRC_URI = "git://github.com/discord-intech/MotorDaemon.git;protocol=https"
 SRCREV="${AUTOREV}"
