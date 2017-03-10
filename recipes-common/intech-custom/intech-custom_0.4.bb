@@ -2,6 +2,7 @@ DESCRIPTION = "Custom messages for INTech CosmOS"
 AUTHOR = "Discord"
 LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d32239bcb673463ab874e80d47fae504"
+PR="r2"
 
 S = "${WORKDIR}"
 

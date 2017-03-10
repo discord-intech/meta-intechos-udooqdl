@@ -15,6 +15,7 @@ IMAGE_FEATURES += " \
 "
 	
 NETWORKPKGS ?= " \
+	rtl8812au \
 "
 
 JAVA ?= " \

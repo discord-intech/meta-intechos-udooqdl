@@ -1,7 +1,7 @@
 DESCRIPTION = "Motor Daemon" 
 SECTION = "examples" 
 LICENSE = "CLOSED" 
-PR = "r51"
+PR = "r82"
 
 
 SRC_URI = "git://github.com/discord-intech/MotorDaemon.git;protocol=https"
