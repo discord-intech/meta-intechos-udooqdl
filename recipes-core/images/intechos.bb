@@ -20,7 +20,6 @@ NETWORKPKGS ?= " \
 
 JAVA ?= " \
 	openjre-8 \
-	rxtx \
 "
 
 GSTREAMER ?= " \
@@ -48,7 +47,6 @@ IMAGE_INSTALL += " \
 	openssh \
 	gnupg \
 	screen \
-	${NETWORKPKGS} \
 	${INTECHPKGS} \
 	${GSTREAMER} \
 	${JAVA} \
