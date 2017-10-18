@@ -14,11 +14,11 @@ First of all, you should select a folder where you'll do everything, where you m
 
 Then execute those lines in the folder you've chosen :
 
-    git clone git://git.yoctoproject.org/poky -b krogoth
+    git clone git://git.yoctoproject.org/poky -b rocko
     cd poky
-    git clone git://git.openembedded.org/meta-openembedded -b krogoth
-    git clone https://github.com/jumpnow/meta-bbb.git -b krogoth
-    git clone https://github.com/meta-qt5/meta-qt5.git -b krogoth
+    git clone git://git.openembedded.org/meta-openembedded -b rocko
+    git clone https://github.com/jumpnow/meta-bbb.git -b pyro
+    git clone https://github.com/meta-qt5/meta-qt5.git -b rocko
     git clone git://git.yoctoproject.org/meta-java
     git clone https://github.com/discord-intech/meta-intechos.git
 
