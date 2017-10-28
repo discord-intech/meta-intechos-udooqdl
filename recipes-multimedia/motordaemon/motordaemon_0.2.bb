@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 PR = "r139"
 
 
-SRC_URI = "git://github.com/hermes-project/hermes-pilot.git;protocol=file"
+SRC_URI = "git://github.com/hermes-project/hermes-pilot.git"
 SRCREV="${AUTOREV}"
 
 

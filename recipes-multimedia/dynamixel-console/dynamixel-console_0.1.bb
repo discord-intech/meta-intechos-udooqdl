@@ -5,7 +5,7 @@ PR = "r0"
 
 DEPENDS = "ardyno"
 
-SRC_URI = "git://github.com/TechTheBilly/ardyno-cosmo-console.git;protocol=https"
+SRC_URI = "git://github.com/hermes-project/dynamixel-console.git;protocol=https"
 SRCREV="${AUTOREV}"
 
 
