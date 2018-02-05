@@ -6,16 +6,17 @@ IMAGE_FEATURES += " \
  	tools-debug \
  	package-management \
 "
- 
-JAVA += " \
- 	openjdk-8 \
-"
+
+JAVA = " \
+	openjdk-8 \
+" 
  
 IMAGE_INSTALL += " \
  	gcc \
  	cmake \
  	vim \
- 	nano \
+ 	openjdk-8 \
+	nano \
  	git \
 	valgrind \
  	subversion \
