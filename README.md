@@ -1,6 +1,6 @@
 # HOW TO FLASH
 
-Your machine should be a BeagleBone Black, we do not support other boards for now (and we won't, HA !)
+Your machine should be a UDOO DUAL/QUAD
 
 ## Dependencies
 
@@ -14,12 +14,15 @@ First of all, you should select a folder where you'll do everything, where you m
 
 Then execute those lines in the folder you've chosen :
 
-    git clone git://git.yoctoproject.org/poky -b rocko
+    git clone git://git.yoctoproject.org/poky -b pyro
     cd poky
-    git clone git://git.openembedded.org/meta-openembedded -b rocko
-    git clone https://github.com/jumpnow/meta-bbb.git -b pyro
-    git clone https://github.com/meta-qt5/meta-qt5.git -b rocko
+    git clone git://git.openembedded.org/meta-openembedded -b pyro
+    git clone https://github.com/meta-qt5/meta-qt5.git -b pyro
     git clone git://git.yoctoproject.org/meta-java
+    git clone https://github.com/graugans/meta-udoo.git -b pyro
+    git clone https://github.com/Freescale/meta-freescale.git -b pyro
+    git clone git://git.openembedded.org/openembedded-core -b pyro
+    git clone https://github.com/Freescale/meta-freescale-distro.git -b pyro
     git clone https://github.com/discord-intech/meta-intechos.git
 
 This will simply clone all the files you need to perform the compilation. If the last one failed, just change the address with the HTTPS one you can find on our main page.
@@ -49,7 +52,7 @@ If you want the "dev" version with multiple dev tools like OpenJDK, GCC5 and Cma
     
 This "dev" image is a bigger than the classic one, due to these dev tools.
 
-This will launch the compilation, it can be quite long for the first time. (~1H on an AMD eight-core)
+This will launch the compilation, it can be quite long for the first time. (~2H on an AMD eight-core)
 
 If everything went fine, it should end with :
 
