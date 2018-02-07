@@ -47,6 +47,7 @@ INTECHPKGS ?= " \
 IMAGE_INSTALL += " \
 	dtc \	
 	htop \
+	modemmanager \
 	bossac \
 	openssh \
 	gnupg \
