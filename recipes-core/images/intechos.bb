@@ -76,6 +76,7 @@ IMAGE_INSTALL += "\
     packagegroup-base \
     ${CORE_IMAGE_EXTRA_INSTALL} \
     ${UDOO_EXTRA_INSTALL} \
+    systemd \
     resize-rootfs \
     tmux \
     binutils \
