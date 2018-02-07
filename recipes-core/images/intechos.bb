@@ -28,6 +28,8 @@ GSTREAMER ?= " \
 	gstreamer1.0-libav \
 	gstreamer1.0-meta-base \
 	gstreamer1.0-omx \
+	gstreamer1.0-plugins-imx \
+	imx-gst1.0-plugin \
 	gstreamer1.0-plugins-bad \
 	gstreamer1.0-plugins-base \
 	gstreamer1.0-plugins-good \
