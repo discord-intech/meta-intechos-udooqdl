@@ -37,8 +37,8 @@ It will configure your environment for bitbake, create a build folder with defau
 
 Now you need to replace bblayers.conf and local.conf inside the conf folder (poky/build(you should be here)/conf/) with the ones available in meta-intech-cosmo, you can do that with those lines (make sure you are in the build folder !) :
 
-    cp ../meta-intechos/build_conf/bblayers.conf conf/
-    cp ../meta-intechos/build_conf/local.conf conf/
+    cp ../meta-intechos-udooqdl/build_conf/bblayers.conf conf/
+    cp ../meta-intechos-udooqdl/build_conf/local.conf conf/
 
 ## Compiling !
 
