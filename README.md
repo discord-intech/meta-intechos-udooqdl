@@ -23,7 +23,7 @@ Then execute those lines in the folder you've chosen :
     git clone https://github.com/Freescale/meta-freescale.git -b pyro
     git clone git://git.openembedded.org/openembedded-core -b pyro
     git clone https://github.com/Freescale/meta-freescale-distro.git -b pyro
-    git clone https://github.com/discord-intech/meta-intechos.git
+    git clone https://github.com/discord-intech/meta-intechos-udooqdl.git
 
 This will simply clone all the files you need to perform the compilation. If the last one failed, just change the address with the HTTPS one you can find on our main page.
 
