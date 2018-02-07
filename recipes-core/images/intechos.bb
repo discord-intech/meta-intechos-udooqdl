@@ -46,6 +46,8 @@ INTECHPKGS ?= " \
 
 IMAGE_INSTALL += " \
 	dtc \	
+	htop \
+	bossac \
 	openssh \
 	gnupg \
 	screen \
