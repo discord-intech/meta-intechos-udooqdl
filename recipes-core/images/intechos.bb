@@ -48,6 +48,7 @@ IMAGE_INSTALL += " \
 	dtc \	
 	htop \
 	modemmanager \
+	networkmanager \
 	bossac \
 	openssh \
 	gnupg \
@@ -79,6 +80,8 @@ IMAGE_INSTALL += "\
     systemd \
     resize-rootfs \
     tmux \
+    mobile-broadband-provider-info \
+    wvdial \
     binutils \
     minicom \
     mmc-utils \
