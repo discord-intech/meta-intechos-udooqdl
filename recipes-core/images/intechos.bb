@@ -49,6 +49,7 @@ IMAGE_INSTALL += " \
 	htop \
 	modemmanager \
 	networkmanager \
+	dhcpcd \
 	bossac \
 	openssh \
 	gnupg \
