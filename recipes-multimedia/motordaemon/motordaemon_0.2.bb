@@ -1,10 +1,10 @@
 DESCRIPTION = "Motor Daemon" 
 SECTION = "examples" 
 LICENSE = "CLOSED" 
-PR = "r139"
+PR = "r143"
 
 
-SRC_URI = "git://github.com/hermes-project/hermes-pilot.git"
+SRC_URI = "git://github.com/discord-intech/MotorDaemon.git"
 SRCREV="${AUTOREV}"
 
 
