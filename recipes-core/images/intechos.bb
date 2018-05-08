@@ -47,13 +47,12 @@ INTECHPKGS ?= " \
 IMAGE_INSTALL += " \
 	dtc \	
 	htop \
-	modemmanager \
-	networkmanager \
 	dhcpcd \
 	bossac \
 	openssh \
 	gnupg \
 	screen \
+	alsa-utils \
 	${JAVA} \
 	${INTECHPKGS} \
 	${GSTREAMER} \
@@ -78,7 +77,6 @@ IMAGE_INSTALL += "\
     packagegroup-base \
     ${CORE_IMAGE_EXTRA_INSTALL} \
     ${UDOO_EXTRA_INSTALL} \
-    systemd \
     resize-rootfs \
     tmux \
     mobile-broadband-provider-info \

@@ -1,8 +1,9 @@
 DESCRIPTION = "Motor Daemon" 
 SECTION = "examples" 
 LICENSE = "CLOSED" 
-PR = "r143"
+PR = "r177"
 
+DEPENDS = "portaudio-v19"
 
 SRC_URI = "git://github.com/discord-intech/MotorDaemon.git"
 SRCREV="${AUTOREV}"
