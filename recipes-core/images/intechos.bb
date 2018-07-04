@@ -49,9 +49,13 @@ IMAGE_INSTALL += " \
 	htop \
 	dhcpcd \
 	bossac \
+	python3-numpy \
+	python-numpy \
 	openssh \
 	gnupg \
 	screen \
+	python3-pip \
+	python-pip \
 	alsa-utils \
 	${JAVA} \
 	${INTECHPKGS} \
